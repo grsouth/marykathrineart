@@ -329,14 +329,21 @@ button {
 .hero::before {
   position: absolute;
   z-index: -2;
-  top: -15rem;
-  left: 42%;
-  width: 42rem;
-  height: 42rem;
-  border-radius: 50%;
-  background: rgba(201, 191, 221, 0.27);
+  top: -4rem;
+  left: 39%;
+  width: 48rem;
+  height: 26rem;
+  border-radius: 42% 58% 46% 54% / 61% 37% 63% 39%;
+  background:
+    radial-gradient(ellipse at 20% 52%, rgba(201, 191, 221, 0.08) 0 24%, transparent 58%),
+    radial-gradient(ellipse at 48% 46%, rgba(201, 191, 221, 0.25) 0 32%, transparent 72%),
+    radial-gradient(ellipse at 78% 55%, rgba(206, 195, 222, 0.2) 0 26%, transparent 65%),
+    linear-gradient(96deg, transparent 2%, rgba(201, 191, 221, 0.2) 18% 81%, transparent 98%);
+  clip-path: polygon(1% 40%, 8% 17%, 27% 7%, 44% 15%, 65% 3%, 87% 19%, 99% 48%, 91% 77%, 71% 89%, 52% 81%, 29% 96%, 9% 76%);
   content: "";
-  filter: blur(2px);
+  filter: blur(9px);
+  opacity: 0.82;
+  transform: rotate(-5deg);
 }
 
 .hero__copy {
@@ -473,11 +480,18 @@ button {
 
 .hero__halo {
   position: absolute;
-  inset: 4% -8% 6%;
-  border-radius: 48% 52% 46% 54% / 59% 42% 58% 41%;
-  background: var(--butter);
-  opacity: 0.5;
-  transform: rotate(7deg);
+  inset: 8% -11% 4%;
+  border-radius: 61% 39% 54% 46% / 37% 58% 42% 63%;
+  background:
+    radial-gradient(ellipse at 25% 45%, rgba(217, 181, 82, 0.6) 0 27%, transparent 63%),
+    radial-gradient(ellipse at 57% 54%, rgba(217, 181, 82, 0.48) 0 35%, transparent 72%),
+    radial-gradient(ellipse at 84% 44%, rgba(240, 147, 103, 0.18) 0 19%, transparent 57%),
+    linear-gradient(102deg, transparent, rgba(217, 181, 82, 0.38) 14% 86%, transparent);
+  clip-path: polygon(2% 29%, 17% 9%, 39% 15%, 59% 4%, 84% 16%, 98% 45%, 88% 72%, 67% 84%, 45% 77%, 22% 94%, 5% 67%);
+  filter: blur(5px);
+  mix-blend-mode: multiply;
+  opacity: 0.6;
+  transform: rotate(4deg) skewX(-3deg);
 }
 
 .hero__frame {
@@ -640,13 +654,21 @@ button {
 
 .gallery-section::after {
   position: absolute;
-  top: -12rem;
-  right: -6rem;
-  width: 26rem;
-  height: 26rem;
-  border-radius: 50%;
-  background: rgba(206, 90, 67, 0.3);
+  top: -5rem;
+  right: -8rem;
+  width: 34rem;
+  height: 18rem;
+  border-radius: 53% 47% 62% 38% / 43% 61% 39% 57%;
+  background:
+    radial-gradient(ellipse at 24% 53%, rgba(206, 90, 67, 0.1) 0 24%, transparent 61%),
+    radial-gradient(ellipse at 57% 46%, rgba(206, 90, 67, 0.32) 0 31%, transparent 69%),
+    radial-gradient(ellipse at 85% 59%, rgba(240, 147, 103, 0.24) 0 20%, transparent 57%),
+    linear-gradient(92deg, transparent, rgba(206, 90, 67, 0.2) 16% 84%, transparent);
+  clip-path: polygon(2% 37%, 12% 13%, 34% 6%, 56% 14%, 78% 3%, 96% 27%, 99% 63%, 81% 84%, 59% 77%, 38% 94%, 14% 78%);
   content: "";
+  filter: blur(7px);
+  opacity: 0.8;
+  transform: rotate(9deg);
 }
 
 .gallery-section__header {
@@ -871,24 +893,40 @@ button {
 .shop-callout::after {
   position: absolute;
   z-index: -1;
-  border-radius: 50%;
   content: "";
+  filter: blur(8px);
+  mix-blend-mode: multiply;
 }
 
 .shop-callout::before {
-  top: -10rem;
-  left: -6rem;
-  width: 24rem;
-  height: 24rem;
-  background: rgba(240, 147, 103, 0.38);
+  top: -4rem;
+  left: -8rem;
+  width: 34rem;
+  height: 17rem;
+  border-radius: 57% 43% 64% 36% / 45% 62% 38% 55%;
+  background:
+    radial-gradient(ellipse at 27% 48%, rgba(240, 147, 103, 0.4) 0 30%, transparent 68%),
+    radial-gradient(ellipse at 68% 56%, rgba(206, 90, 67, 0.2) 0 27%, transparent 64%),
+    linear-gradient(98deg, transparent, rgba(240, 147, 103, 0.28) 15% 84%, transparent);
+  clip-path: polygon(1% 33%, 14% 9%, 37% 17%, 56% 5%, 82% 15%, 98% 47%, 88% 78%, 64% 88%, 43% 79%, 19% 94%, 4% 68%);
+  opacity: 0.72;
+  transform: rotate(-8deg);
 }
 
 .shop-callout::after {
-  right: -8rem;
-  bottom: -13rem;
-  width: 30rem;
-  height: 30rem;
-  background: rgba(217, 181, 82, 0.42);
+  right: -10rem;
+  bottom: -4rem;
+  width: 40rem;
+  height: 19rem;
+  border-radius: 42% 58% 39% 61% / 62% 41% 59% 38%;
+  background:
+    radial-gradient(ellipse at 20% 49%, rgba(217, 181, 82, 0.12) 0 24%, transparent 58%),
+    radial-gradient(ellipse at 54% 54%, rgba(217, 181, 82, 0.42) 0 32%, transparent 70%),
+    radial-gradient(ellipse at 84% 42%, rgba(138, 134, 53, 0.13) 0 21%, transparent 57%),
+    linear-gradient(89deg, transparent, rgba(217, 181, 82, 0.25) 13% 88%, transparent);
+  clip-path: polygon(2% 42%, 11% 17%, 31% 5%, 51% 14%, 73% 3%, 94% 21%, 99% 56%, 87% 83%, 65% 91%, 44% 81%, 21% 96%, 5% 72%);
+  opacity: 0.7;
+  transform: rotate(7deg);
 }
 
 .shop-callout__inner {
@@ -1231,10 +1269,10 @@ button {
   }
 
   .hero::before {
-    top: 7rem;
-    left: 25%;
-    width: 24rem;
-    height: 24rem;
+    top: 6rem;
+    left: 12%;
+    width: 28rem;
+    height: 16rem;
   }
 
   .hero h1 {
