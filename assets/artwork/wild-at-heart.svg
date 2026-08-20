@@ -1,20 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1200">
   <defs><filter id="grain"><feTurbulence baseFrequency=".7" numOctaves="2" seed="20"/><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 .09 0"/></filter></defs>
   <rect width="1500" height="1200" fill="#f2eadb"/>
-  <path d="M0 783c298-126 560-113 800 39 226 143 459 151 700 25v353H0Z" fill="#a8b39a"/>
-  <g stroke="#5e6c59" stroke-width="6" stroke-linecap="round" fill="none">
+  <path d="M0 783c298-126 560-113 800 39 226 143 459 151 700 25v353H0Z" fill="#889063"/>
+  <g stroke="#8A8635" stroke-width="6" stroke-linecap="round" fill="none">
     <path d="M115 1158c8-202 47-376 117-523M189 830c-61-53-120-81-177-84M209 710c45-42 90-67 135-75"/>
     <path d="M492 1182c-2-278 52-519 161-722M564 817c-77-53-148-77-214-72M599 632c48-47 98-76 150-87"/>
     <path d="M963 1180c5-232 51-432 139-601M1012 845c-67-51-130-76-188-75M1056 671c45-37 89-59 132-67"/>
     <path d="M1332 1183c-4-193 18-360 66-501"/>
   </g>
   <g>
-    <g fill="#d58d93"><circle cx="232" cy="623" r="35"/><circle cx="193" cy="650" r="35"/><circle cx="225" cy="687" r="35"/><circle cx="265" cy="657" r="35"/><circle cx="229" cy="653" r="16" fill="#e8c973"/></g>
-    <g fill="#c0b1d2"><circle cx="653" cy="446" r="39"/><circle cx="608" cy="476" r="39"/><circle cx="645" cy="519" r="39"/><circle cx="691" cy="484" r="39"/><circle cx="649" cy="480" r="18" fill="#e8c973"/></g>
-    <g fill="#e4b26d"><circle cx="1102" cy="570" r="32"/><circle cx="1065" cy="594" r="32"/><circle cx="1095" cy="630" r="32"/><circle cx="1133" cy="602" r="32"/><circle cx="1099" cy="598" r="15" fill="#f4e6c7"/></g>
-    <g fill="#d9a7ad"><circle cx="1399" cy="673" r="27"/><circle cx="1368" cy="694" r="27"/><circle cx="1393" cy="724" r="27"/><circle cx="1425" cy="701" r="27"/></g>
+    <g fill="#F0A599"><circle cx="232" cy="623" r="35"/><circle cx="193" cy="650" r="35"/><circle cx="225" cy="687" r="35"/><circle cx="265" cy="657" r="35"/><circle cx="229" cy="653" r="16" fill="#D9B552"/></g>
+    <g fill="#F09367"><circle cx="653" cy="446" r="39"/><circle cx="608" cy="476" r="39"/><circle cx="645" cy="519" r="39"/><circle cx="691" cy="484" r="39"/><circle cx="649" cy="480" r="18" fill="#D9B552"/></g>
+    <g fill="#F09367"><circle cx="1102" cy="570" r="32"/><circle cx="1065" cy="594" r="32"/><circle cx="1095" cy="630" r="32"/><circle cx="1133" cy="602" r="32"/><circle cx="1099" cy="598" r="15" fill="#f4e6c7"/></g>
+    <g fill="#F0A599"><circle cx="1399" cy="673" r="27"/><circle cx="1368" cy="694" r="27"/><circle cx="1393" cy="724" r="27"/><circle cx="1425" cy="701" r="27"/></g>
   </g>
-  <circle cx="1275" cy="254" r="123" fill="#ead9a5" opacity=".68"/>
-  <g fill="#887da4"><circle cx="386" cy="914" r="12"/><circle cx="425" cy="877" r="10"/><circle cx="778" cy="947" r="12"/><circle cx="830" cy="899" r="9"/><circle cx="1192" cy="932" r="12"/></g>
+  <circle cx="1275" cy="254" r="123" fill="#D9B552" opacity=".68"/>
+  <g fill="#AB482D"><circle cx="386" cy="914" r="12"/><circle cx="425" cy="877" r="10"/><circle cx="778" cy="947" r="12"/><circle cx="830" cy="899" r="9"/><circle cx="1192" cy="932" r="12"/></g>
   <rect width="1500" height="1200" filter="url(#grain)" opacity=".3"/>
 </svg>

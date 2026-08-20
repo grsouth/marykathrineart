@@ -4,7 +4,7 @@
  */
 const siteConfig = Object.freeze({
   etsyUrl: "",
-  instagramUrl: "",
+  instagramUrl: "https://www.instagram.com/marykathrineart",
 });
 
 /*

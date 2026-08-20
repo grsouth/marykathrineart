@@ -39,16 +39,24 @@
 }
 
 :root {
-  --ivory: #f6f0e6;
-  --paper: #fffaf2;
-  --sage: #a9b7a0;
-  --sage-dark: #5f6e58;
-  --rose: #d9a7ad;
-  --lavender: #c9bfdd;
-  --butter: #ead9a5;
-  --ink: #363b34;
-  --ink-soft: #65685f;
-  --line: rgba(54, 59, 52, 0.18);
+  --apricot: #f09367;
+  --blush: #f0a599;
+  --copper: #ce5a43;
+  --blood-orange: #ab482d;
+  --olive: #8a8635;
+  --moss: #889063;
+  --sunshine: #d9b552;
+  --burgundy: #6a1f3a;
+  --ivory: #f8f1e7;
+  --paper: #fff9ef;
+  --sage: var(--moss);
+  --sage-dark: var(--burgundy);
+  --rose: var(--blush);
+  --lavender: var(--apricot);
+  --butter: var(--sunshine);
+  --ink: #352e29;
+  --ink-soft: var(--burgundy);
+  --line: rgba(106, 31, 58, 0.2);
   --serif: "Cormorant Garamond", Georgia, serif;
   --sans: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
   --page-gutter: clamp(1.25rem, 4vw, 4.75rem);
@@ -115,8 +123,9 @@ button {
 }
 
 :focus-visible {
-  outline: 3px solid #78659a;
+  outline: 3px solid var(--paper);
   outline-offset: 4px;
+  box-shadow: 0 0 0 6px var(--burgundy);
 }
 
 .skip-link {
@@ -362,12 +371,12 @@ button {
 }
 
 .button--primary {
-  background: var(--ink);
+  background: var(--burgundy);
   color: var(--paper);
 }
 
 .button--primary:not([aria-disabled="true"]):hover {
-  background: var(--sage-dark);
+  background: var(--blood-orange);
   transform: translateY(-2px);
 }
 
@@ -567,7 +576,7 @@ button {
   overflow: hidden;
   padding-right: 0;
   padding-left: 0;
-  background: #e7e7dd;
+  background: var(--sunshine);
 }
 
 .gallery-section::after {
@@ -577,7 +586,7 @@ button {
   width: 26rem;
   height: 26rem;
   border-radius: 50%;
-  background: rgba(217, 167, 173, 0.26);
+  background: rgba(206, 90, 67, 0.3);
   content: "";
 }
 
@@ -790,7 +799,9 @@ button {
 .shop-callout {
   position: relative;
   overflow: hidden;
-  background: var(--rose);
+  padding-top: clamp(9rem, 14vw, 13rem);
+  padding-bottom: clamp(7rem, 11vw, 10rem);
+  background: var(--blush);
   isolation: isolate;
   text-align: center;
 }
@@ -808,7 +819,7 @@ button {
   left: -6rem;
   width: 24rem;
   height: 24rem;
-  background: rgba(255, 250, 242, 0.25);
+  background: rgba(240, 147, 103, 0.38);
 }
 
 .shop-callout::after {
@@ -816,7 +827,7 @@ button {
   bottom: -13rem;
   width: 30rem;
   height: 30rem;
-  background: rgba(201, 191, 221, 0.48);
+  background: rgba(217, 181, 82, 0.42);
 }
 
 .shop-callout__inner {
@@ -825,7 +836,7 @@ button {
 }
 
 .shop-callout .eyebrow {
-  color: #47463f;
+  color: var(--burgundy);
 }
 
 .shop-callout h2 {
@@ -835,7 +846,7 @@ button {
 .shop-callout__inner > p:not(.eyebrow, .link-status) {
   max-width: 34rem;
   margin: 1.8rem auto 0;
-  color: #47463f;
+  color: var(--burgundy);
   font-size: 1.08rem;
 }
 
@@ -844,7 +855,7 @@ button {
 }
 
 .button--dark {
-  background: var(--ink);
+  background: var(--burgundy);
   color: var(--paper);
 }
 
@@ -853,12 +864,12 @@ button {
 }
 
 .text-link--dark {
-  color: var(--ink);
+  color: var(--burgundy);
 }
 
 .link-status {
   margin: 1.3rem 0 0;
-  color: #47463f;
+  color: var(--burgundy);
   font-size: 0.72rem;
   letter-spacing: 0.08em;
 }
@@ -878,7 +889,7 @@ button {
   align-items: center;
   gap: 2rem;
   padding: 3rem var(--page-gutter);
-  background: var(--ink);
+  background: var(--burgundy);
   color: var(--paper);
 }
 
@@ -1151,6 +1162,11 @@ button {
 
   .shop-callout h2 {
     font-size: clamp(4rem, 19vw, 5.5rem);
+  }
+
+  .shop-callout {
+    padding-top: 8rem;
+    padding-bottom: 6rem;
   }
 
   .shop-callout__actions {
