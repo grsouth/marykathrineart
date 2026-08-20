@@ -3,7 +3,7 @@
  * Example: etsyUrl: "https://www.etsy.com/shop/YourShopName"
  */
 const siteConfig = Object.freeze({
-  etsyUrl: "",
+  etsyUrl: "https://marykathrineart.etsy.com",
   instagramUrl: "https://www.instagram.com/marykathrineart",
 });
 
