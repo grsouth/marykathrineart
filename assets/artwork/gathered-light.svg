@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 1400">
+  <defs><filter id="grain"><feTurbulence baseFrequency=".62" numOctaves="3" seed="4"/><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 .1 0"/></filter></defs>
+  <rect width="1050" height="1400" fill="#eee1bd"/>
+  <path d="M-92 1019C120 815 240 598 246 289c283 105 472 306 565 620 55 184 123 304 290 454v97H-92Z" fill="#d19a78" opacity=".86"/>
+  <circle cx="719" cy="396" r="205" fill="#f8edcf"/>
+  <g fill="none" stroke="#5f715f" stroke-linecap="round" stroke-width="6">
+    <path d="M515 1364c11-332-38-621-175-870M478 1107C359 998 248 937 147 924M440 881c71-122 145-211 230-269"/>
+    <path d="M730 1373c-10-259 11-487 90-688M760 1113c-76-72-145-112-207-119M791 859c48-72 98-120 150-146"/>
+  </g>
+  <g fill="#f8edcf" stroke="#d9a7ad" stroke-width="4">
+    <path d="M333 484c-79-66-135 31-62 72-87 26-49 128 33 93-2 91 106 96 119 11 83 28 118-78 32-97 55-65-31-130-84-62-6-13-20-21-38-17Z"/>
+    <path d="M817 674c-54-44-92 22-42 50-60 17-34 86 22 62-1 62 72 65 80 8 57 19 80-53 22-66 37-44-21-88-57-42-4-8-13-14-25-12Z"/>
+  </g>
+  <circle cx="371" cy="566" r="31" fill="#d7a34f"/><circle cx="842" cy="730" r="21" fill="#d7a34f"/>
+  <rect width="1050" height="1400" filter="url(#grain)" opacity=".3"/>
+</svg>

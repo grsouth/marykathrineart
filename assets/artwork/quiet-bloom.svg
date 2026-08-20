@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c6d0ba"/><stop offset="1" stop-color="#8fa18a"/></linearGradient><filter id="grain"><feTurbulence baseFrequency=".72" numOctaves="2" seed="15"/><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 .12 0"/></filter></defs>
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+  <path d="M576 1456c22-317 56-558 129-777" fill="none" stroke="#4f6352" stroke-width="12" stroke-linecap="round"/>
+  <path d="M623 1168c-160-27-250-109-283-248 160 27 250 109 283 248ZM654 1002c131-51 236-30 316 64-131 51-236 30-316-64Z" fill="#657b66"/>
+  <g fill="#f7f0dc" stroke="#6c7b66" stroke-width="5">
+    <path d="M703 689c-159-144-89-331 63-207 27-204 231-183 218 21 183-82 267 119 80 191 148 123-3 285-138 148-32 201-240 168-218-29-181 80-258-126-72-195-151-139-90-303 71-239 165-27 278 42 265Z"/>
+  </g>
+  <circle cx="735" cy="668" r="82" fill="#d9a7ad"/>
+  <circle cx="735" cy="668" r="31" fill="#ead9a5"/>
+  <g fill="#f6f0e6" opacity=".7"><circle cx="233" cy="303" r="17"/><circle cx="986" cy="1081" r="12"/><circle cx="1026" cy="215" r="9"/><circle cx="172" cy="1259" r="10"/></g>
+  <rect width="1200" height="1500" filter="url(#grain)" opacity=".3"/>
+</svg>

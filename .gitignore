@@ -1,0 +1,26 @@
+# Codex/workspace metadata
+.codex/
+.agents/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temporary files
+*.log
+*.tmp
+*~
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Future JavaScript tooling
+node_modules/

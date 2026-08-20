@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f6f0e6"/>
+  <circle cx="1040" cy="92" r="250" fill="#c9bfdd" opacity=".45"/>
+  <circle cx="75" cy="598" r="250" fill="#d9a7ad" opacity=".45"/>
+  <g transform="translate(820 125) scale(.72)">
+    <path d="M176 512c2-107 2-219-26-322-12-44-29-86-55-123M170 424c41-65 70-139 76-216 3-34 1-68-6-101M162 360c-35-52-78-96-129-132M183 476c-1-88 21-173 65-249 15-26 34-52 57-72" fill="none" stroke="#66745f" stroke-width="4" stroke-linecap="round"/>
+    <path d="M115 154c-31 1-51-12-61-39 31-1 51 12 61 39ZM168 339c-36-4-57-21-65-51 36 4 57 21 65 51ZM187 394c31-11 55-6 74 16-31 11-55 6-74-16ZM249 213c26-16 49-16 69 1-26 16-49 16-69-1Z" fill="#a9b7a0"/>
+    <circle cx="94" cy="68" r="20" fill="#d9a7ad"/><circle cx="306" cy="155" r="15" fill="#ead9a5"/>
+  </g>
+  <text x="100" y="275" fill="#363b34" font-family="Georgia, serif" font-size="92">Mary Kathrine</text>
+  <text x="104" y="350" fill="#66745f" font-family="Georgia, serif" font-size="76" font-style="italic">Art</text>
+  <text x="105" y="425" fill="#65685f" font-family="Arial, sans-serif" font-size="22" letter-spacing="5">ORIGINAL ART · MADE WITH WONDER</text>
+  <text x="105" y="530" fill="#65685f" font-family="Arial, sans-serif" font-size="20">marykathrineart.com</text>
+</svg>
