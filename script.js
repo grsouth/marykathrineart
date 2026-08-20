@@ -103,6 +103,37 @@ const updateHeader = () => header.classList.toggle("is-scrolled", window.scrollY
 updateHeader();
 window.addEventListener("scroll", updateHeader, { passive: true });
 
+const menuToggle = document.querySelector("[data-menu-toggle]");
+const siteNav = document.querySelector("[data-site-nav]");
+const mobileNavigation = window.matchMedia("(max-width: 900px)");
+
+const setMenuOpen = (isOpen) => {
+  menuToggle.setAttribute("aria-expanded", String(isOpen));
+  siteNav.classList.toggle("is-open", isOpen);
+};
+
+menuToggle.addEventListener("click", () => {
+  setMenuOpen(menuToggle.getAttribute("aria-expanded") !== "true");
+});
+
+siteNav.addEventListener("click", (event) => {
+  if (event.target.closest("a")) setMenuOpen(false);
+});
+
+document.addEventListener("click", (event) => {
+  if (!header.contains(event.target)) setMenuOpen(false);
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && menuToggle.getAttribute("aria-expanded") === "true") {
+    setMenuOpen(false);
+    menuToggle.focus();
+  }
+});
+
+mobileNavigation.addEventListener("change", () => setMenuOpen(false));
+document.documentElement.classList.add("nav-ready");
+
 const track = document.querySelector("[data-gallery-track]");
 
 const galleryMarkup = galleryItems.map((item, index) => `
